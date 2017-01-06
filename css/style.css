@@ -3,3 +3,33 @@
 * {
     font-family: Helvetica, sans-serif;
 }
+
+body {
+    background-color: #000000;
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+h4, p {
+    margin: 20px 10px;
+}
+
+.left-stripe {
+    display: inline-block;
+    width: 30%;
+    max-width: 500px;
+    height: 100vh;
+    background: linear-gradient(to right, orange, darkorange);
+    text-align: center;
+}
+
+.right-stripe {
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    flex: 1;
+
+}
